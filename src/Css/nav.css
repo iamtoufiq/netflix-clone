@@ -1,0 +1,40 @@
+.nav {
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  width: 100vw;
+  height: 30px;
+  height: 60px;
+  z-index: 1;
+  transition: all 0.5s ease-in 0s;
+}
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+}
+.nav .logo {
+  width: 80px;
+  cursor: pointer;
+  position: fixed;
+  top: 5px;
+  left: 10px;
+}
+.nav .logout__botton {
+  height: 38px;
+  border-radius: 5px;
+  border: 0;
+  padding: 0px 10px;
+  background-color: #fc0a0a;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  top: 5px;
+  right: 10px;
+}
+
+.nav__black {
+  background-color: black;
+}
